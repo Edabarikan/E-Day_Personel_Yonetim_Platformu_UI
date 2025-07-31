@@ -1,0 +1,744 @@
+[
+  {
+    "ContainingType": "KD25_BitirmeProjesi.WebAPI.Controllers.CompanyController",
+    "Method": "CreateCompanyAsync",
+    "RelativePath": "api/Company/CreateCompany",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createCompany",
+        "Type": "KD25_BitirmeProjesi.ApplicationLayer.Models.DTOs.Company_DTOs.CreateCompany_DTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KD25_BitirmeProjesi.WebAPI.Controllers.CompanyManagerController",
+    "Method": "Index",
+    "RelativePath": "api/CompanyManager",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KD25_BitirmeProjesi.WebAPI.Controllers.CompanyManagerController",
+    "Method": "AddManager",
+    "RelativePath": "api/CompanyManager/AddManager",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addDto",
+        "Type": "KD25_BitirmeProjesi.ApplicationLayer.Models.DTOs.AppUser_DTOs.AppUserAdd_DTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KD25_BitirmeProjesi.WebAPI.Controllers.CompanyManagerController",
+    "Method": "ListPersonels",
+    "RelativePath": "api/CompanyManager/ListPersonels",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "companyId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "takeNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KD25_BitirmeProjesi.WebAPI.Controllers.CompanyManagerController",
+    "Method": "GetManagerDetails",
+    "RelativePath": "api/CompanyManager/ManagerDetails/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KD25_BitirmeProjesi.WebAPI.Controllers.CompanyManagerController",
+    "Method": "PassiveManager",
+    "RelativePath": "api/CompanyManager/PassiveManager/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KD25_BitirmeProjesi.WebAPI.Controllers.CompanyManagerController",
+    "Method": "UpdateManager",
+    "RelativePath": "api/CompanyManager/UpdateManager/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateDto",
+        "Type": "KD25_BitirmeProjesi.ApplicationLayer.Models.DTOs.AppUser_DTOs.AppUserUpdate_DTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KD25_BitirmeProjesi.WebAPI.Controllers.ExpenceController",
+    "Method": "AddExpenceAsync",
+    "RelativePath": "api/Expence/AddExpence",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addExpence",
+        "Type": "KD25_BitirmeProjesi.ApplicationLayer.Models.DTOs.Expence_DTOs.AddExpence_DTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KD25_BitirmeProjesi.WebAPI.Controllers.ExpenceController",
+    "Method": "ApproveExpence",
+    "RelativePath": "api/Expence/Approve/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KD25_BitirmeProjesi.WebAPI.Controllers.ExpenceController",
+    "Method": "CancelExpence",
+    "RelativePath": "api/Expence/Cancel/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KD25_BitirmeProjesi.WebAPI.Controllers.ExpenceController",
+    "Method": "DenyExpence",
+    "RelativePath": "api/Expence/Deny/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KD25_BitirmeProjesi.WebAPI.Controllers.ExpenceController",
+    "Method": "GetExpenceDetails",
+    "RelativePath": "api/Expence/Details/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KD25_BitirmeProjesi.WebAPI.Controllers.ExpenceController",
+    "Method": "GetAllExpencesAsync",
+    "RelativePath": "api/Expence/List",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KD25_BitirmeProjesi.WebAPI.Controllers.ExpenceController",
+    "Method": "GetLastExpencesAsync",
+    "RelativePath": "api/Expence/ListLast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "companyId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "takeNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KD25_BitirmeProjesi.WebAPI.Controllers.ExpenceTypeController",
+    "Method": "AddExpenceTypeAsync",
+    "RelativePath": "api/ExpenceType/AddExpenceType",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addExpenceType",
+        "Type": "KD25_BitirmeProjesi.ApplicationLayer.Models.DTOs.Expence_DTOs.AddExpenceType_DTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KD25_BitirmeProjesi.WebAPI.Controllers.ExpenceTypeController",
+    "Method": "CancelExpence",
+    "RelativePath": "api/ExpenceType/Delete/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KD25_BitirmeProjesi.WebAPI.Controllers.ExpenceTypeController",
+    "Method": "GetExpenceTypeDetails",
+    "RelativePath": "api/ExpenceType/Details/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KD25_BitirmeProjesi.WebAPI.Controllers.ExpenceTypeController",
+    "Method": "GetAllExpenceTypesAsync",
+    "RelativePath": "api/ExpenceType/List",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "companyId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KD25_BitirmeProjesi.WebAPI.Controllers.LeaveRecordController",
+    "Method": "AddLeaveRecord",
+    "RelativePath": "api/LeaveRecord/AddLeaveRecord",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addLeaveRecord",
+        "Type": "KD25_BitirmeProjesi.ApplicationLayer.Models.DTOs.LeaveRecord_DTOs.AddLeaveRecord_DTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KD25_BitirmeProjesi.WebAPI.Controllers.LeaveRecordController",
+    "Method": "SoftDeleteLeaveRecord",
+    "RelativePath": "api/LeaveRecord/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KD25_BitirmeProjesi.WebAPI.Controllers.LeaveRecordController",
+    "Method": "GetLeaveRecordDetails",
+    "RelativePath": "api/LeaveRecord/Details/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KD25_BitirmeProjesi.WebAPI.Controllers.LeaveRecordController",
+    "Method": "GetAllLeaveRecords",
+    "RelativePath": "api/LeaveRecord/List",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KD25_BitirmeProjesi.WebAPI.Controllers.LeaveRecordController",
+    "Method": "GetAllLeaveRecordsByCompany",
+    "RelativePath": "api/LeaveRecord/ListByCompany",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "companyId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "takeNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KD25_BitirmeProjesi.WebAPI.Controllers.LeaveRecordTypeController",
+    "Method": "AddLeaveRecordType",
+    "RelativePath": "api/LeaveRecordType/AddLeaveRecordType",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addLeaveRecordType",
+        "Type": "KD25_BitirmeProjesi.ApplicationLayer.Models.DTOs.LeaveRecordType_DTOs.AddLeaveRecordType_DTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KD25_BitirmeProjesi.WebAPI.Controllers.LeaveRecordTypeController",
+    "Method": "GetLeaveRecordTypes",
+    "RelativePath": "api/LeaveRecordType/List",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KD25_BitirmeProjesi.WebAPI.Controllers.LeaveRecordTypeController",
+    "Method": "SoftDeleteLeaveRecordType",
+    "RelativePath": "api/LeaveRecordType/SoftDeleteLeaveRecordType/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KD25_BitirmeProjesi.WebAPI.Controllers.LeaveRecordTypeController",
+    "Method": "UpdateLeaveRecordType",
+    "RelativePath": "api/LeaveRecordType/UpdateLeaveRecordType/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateLeaveRecordType",
+        "Type": "KD25_BitirmeProjesi.ApplicationLayer.Models.DTOs.LeaveRecordType_DTOs.UpdateLeaveRecordType_DTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KD25_BitirmeProjesi.WebAPI.Controllers.LoginController",
+    "Method": "CheckSession",
+    "RelativePath": "api/Login/check-session",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KD25_BitirmeProjesi.WebAPI.Controllers.LoginController",
+    "Method": "ForgotPassword",
+    "RelativePath": "api/Login/forgot-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "KD25_BitirmeProjesi.ApplicationLayer.Models.DTOs.Login_DTOs.ForgotPassword_DTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KD25_BitirmeProjesi.WebAPI.Controllers.LoginController",
+    "Method": "Login",
+    "RelativePath": "api/Login/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "KD25_BitirmeProjesi.ApplicationLayer.Models.DTOs.Login_DTOs.Login_DTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KD25_BitirmeProjesi.WebAPI.Controllers.LoginController",
+    "Method": "UpdatePassword",
+    "RelativePath": "api/Login/reset-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "KD25_BitirmeProjesi.ApplicationLayer.Models.DTOs.Login_DTOs.UpdatePassword_DTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KD25_BitirmeProjesi.WebAPI.Controllers.PersonelController",
+    "Method": "AddPersonal",
+    "RelativePath": "api/Personel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newPersonal",
+        "Type": "KD25_BitirmeProjesi.ApplicationLayer.Models.DTOs.AppUser_DTOs.AppUserAdd_DTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KD25_BitirmeProjesi.WebAPI.Controllers.PersonelController",
+    "Method": "GetPersonalDetails",
+    "RelativePath": "api/Personel/details/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KD25_BitirmeProjesi.WebAPI.Controllers.PersonelController",
+    "Method": "GetAllPersonel",
+    "RelativePath": "api/Personel/list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "companyId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KD25_BitirmeProjesi.WebAPI.Controllers.PersonelController",
+    "Method": "PassivePersonal",
+    "RelativePath": "api/Personel/passive/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KD25_BitirmeProjesi.WebAPI.Controllers.PersonelController",
+    "Method": "UpdatePersonal",
+    "RelativePath": "api/Personel/update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatePersonal",
+        "Type": "KD25_BitirmeProjesi.ApplicationLayer.Models.DTOs.AppUser_DTOs.AppUserUpdate_DTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KD25_BitirmeProjesi.WebAPI.Controllers.SalaryAdvanceController",
+    "Method": "AddSalaryAdvance",
+    "RelativePath": "api/SalaryAdvance/AddSalaryAdvance",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AddSalaryAdvance",
+        "Type": "KD25_BitirmeProjesi.ApplicationLayer.Models.DTOs.Advance_DTOs.AddSalaryAdvance_DTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KD25_BitirmeProjesi.WebAPI.Controllers.SalaryAdvanceController",
+    "Method": "GetSalaryAdvanceDetails",
+    "RelativePath": "api/SalaryAdvance/Details/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KD25_BitirmeProjesi.WebAPI.Controllers.SalaryAdvanceController",
+    "Method": "GetAllSalaryAdvances",
+    "RelativePath": "api/SalaryAdvance/List",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KD25_BitirmeProjesi.WebAPI.Controllers.SalaryAdvanceController",
+    "Method": "PassiveSalaryAdvance",
+    "RelativePath": "api/SalaryAdvance/Passive/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KD25_BitirmeProjesi.WebAPI.Controllers.SalaryAdvanceController",
+    "Method": "UpdateSalaryAdvance",
+    "RelativePath": "api/SalaryAdvance/Update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateSalaryAdvance_DTO",
+        "Type": "KD25_BitirmeProjesi.ApplicationLayer.Models.DTOs.Advance_DTOs.UpdateSalaryAdvance_DTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KD25_BitirmeProjesi.WebAPI.Controllers.SiteAdministratorController",
+    "Method": "GetUserDetail",
+    "RelativePath": "api/SiteAdministrator/detail/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KD25_BitirmeProjesi.WebAPI.Controllers.SiteAdministratorController",
+    "Method": "GetUserSummary",
+    "RelativePath": "api/SiteAdministrator/summary/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KD25_BitirmeProjesi.WebAPI.Controllers.SiteAdministratorController",
+    "Method": "UpdateUser",
+    "RelativePath": "api/SiteAdministrator/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "KD25_BitirmeProjesi.ApplicationLayer.Models.DTOs.AppUser_DTOs.AppUserDetailDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KD25_BitirmeProjesi.WebAPI.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[KD25_BitirmeProjesi.WebAPI.WeatherForecast, KD25-BitirmeProjesi.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
